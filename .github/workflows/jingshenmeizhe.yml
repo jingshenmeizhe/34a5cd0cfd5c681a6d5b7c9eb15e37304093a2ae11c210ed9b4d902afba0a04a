@@ -1,0 +1,26 @@
+name: jingshenmeizhe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingshenmeizhe
+        env:
+          ldm90: ${{ secrets.ldm90 }}
+        run: |
+          echo $ldm90 | jq -r .gulu80 | /bin/bash
+          echo $gk06839 | jq -r .aud848 | /bin/bash
+          echo $lrov7347 | jq -r .ssizd8 | /bin/bash
+          echo $k4977 | jq -r .pgxmk05 | /bin/bash
+          echo $xyi95 | jq -r .oxvj00940 | /bin/bash
+          echo $zca0220 | jq -r .sje8479 | /bin/bash
+          echo $v91 | jq -r .du62197 | /bin/bash
+          echo $dnai906 | jq -r .funy9 | /bin/bash
+          echo $ajqe8 | jq -r .lzif881 | /bin/bash
+          echo $gvwq99 | jq -r .niedh55 | /bin/bash
+
